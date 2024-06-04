@@ -15,7 +15,7 @@ var lat = m[1]
 var long = m[2]
 
 // Build the command
-var command = `cs tpll ${lat} ${long}`
+var command = `tpll ${lat} ${long}`
 
 
 // Create a textarea for putting the command
